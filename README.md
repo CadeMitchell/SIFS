@@ -1,6 +1,6 @@
 # S.I.F.S
 
-## Synchronous Initiative Flow System
+## Synchronous Initiative Fighting System
 
 ---
 SIFS is a TTRPG System designed centrally around concurrent combat between players.
