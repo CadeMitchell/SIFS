@@ -1,0 +1,42 @@
+{
+    "id": "sifs",
+    "title": "Synchronous Initiative Fighting System",
+    "description": "System designed to have combat turns occur concurretly.",
+    "version": "0.0.0",
+    "compatibility": {
+        "minimum": "",
+        "verified": ""
+    },
+    "authors": [
+        {
+            "name": "Cade Mitchell",
+            "url": "N/A",
+            "email": "N/A"
+        }
+    ],
+    "esmodules": ["sifs.mjs"],
+    "styles": ["sifs-styles.css"], 
+    "languages": [{
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+    }],
+    "documentTypes": {
+        "Actor": {
+
+        },
+        "Item": {
+
+        }
+    },
+    "socket": false,
+    "grid": {
+        "distance": 1,
+        "units": "meter"
+    },
+    "primaryTokenAttribute": "",
+    "secondaryTokenAttribute": "",
+    "url": "",
+    "manifest": "",
+    "download": ""
+}
