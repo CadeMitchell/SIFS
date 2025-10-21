@@ -1,0 +1,72 @@
+{
+"Actor": {
+    "types": ["character", "npc", "vehicle"],
+    "template": {
+        "base": {
+            "name": "",
+            "health": {
+                "max": 0,
+                "current": 0,
+                "temp": 0
+            },
+            "resources": [{
+                "name": "",
+                "max": 0,
+                "current": 0
+            },
+            {
+                "name": "",
+                "max": 0,
+                "current": 0
+            },
+            {
+                "name": "",
+                "max": 0,
+                "current": 0
+            }
+        ]
+        }
+    },
+    "character": {
+        "templates": ["base"]
+    },
+    "npc": {
+        "templates": ["base"]
+    },
+    "vehicle": {
+        "templates": ["base"]
+    }
+},
+"Item": {
+    "types": ["jutsu", "equipment", "weapon", "armor"],
+    "template": {
+        "base": {
+            "name": "",
+            "description": ""
+        },
+        "base_item": {
+            "weight": 0,
+            "value": 0
+        },
+        "base_ability": {
+            "actions": 0,
+            "resource": "",
+            "resource_cost": 0,
+            "effect": "",
+            "combat_tags": []
+        }
+    },
+    "jutsu": {
+        "templates": ["base", "base_ability"]
+    },
+    "equipment": {
+        "templates": ["base", "base_item"]
+    },
+    "weapon": {
+        "templates": ["base", "base_item", "base_ability"]
+    },
+    "armor": {
+        "templates": ["base", "base_item"]
+    }
+}
+}

@@ -14,6 +14,14 @@
             "email": "N/A"
         }
     ],
+    "media": [
+    {
+      "type": "setup",
+      "url": "",
+      "thumbnail": ""
+    }
+    ],
+    "background": "",
     "esmodules": ["sifs.mjs"],
     "styles": ["sifs-styles.css"], 
     "languages": [{
@@ -29,6 +37,8 @@
 
         }
     },
+    "packs": [],
+    "packFolders": [],
     "socket": false,
     "grid": {
         "distance": 1,
@@ -36,7 +46,9 @@
     },
     "primaryTokenAttribute": "",
     "secondaryTokenAttribute": "",
+    "readme": "README.md",
     "url": "",
     "manifest": "",
-    "download": ""
+    "download": "",
+    "bugs": ""
 }
