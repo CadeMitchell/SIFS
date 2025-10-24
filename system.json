@@ -31,20 +31,21 @@
     }],
     "documentTypes": {
         "Actor": {
-
+            "character": { "htmlFields": ["background.bio"]},
+            "npc": { "htmlFields": ["background.bio"]},
+            "vehicle": { "htmlFields": ["background.bio"]}
         },
         "Item": {
 
         }
     },
     "packs": [],
-    "packFolders": [],
     "socket": false,
     "grid": {
         "distance": 1,
         "units": "meter"
     },
-    "primaryTokenAttribute": "",
+    "primaryTokenAttribute": "base.health.value",
     "secondaryTokenAttribute": "",
     "readme": "README.md",
     "url": "",
