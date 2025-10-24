@@ -38,35 +38,6 @@
     }
 },
 "Item": {
-    "types": ["jutsu", "equipment", "weapon", "armor"],
-    "template": {
-        "base": {
-            "name": "",
-            "description": ""
-        },
-        "base_item": {
-            "weight": 0,
-            "value": 0
-        },
-        "base_ability": {
-            "actions": 0,
-            "resource": "",
-            "resource_cost": 0,
-            "effect": "",
-            "combat_tags": []
-        }
-    },
-    "jutsu": {
-        "templates": ["base", "base_ability"]
-    },
-    "equipment": {
-        "templates": ["base", "base_item"]
-    },
-    "weapon": {
-        "templates": ["base", "base_item", "base_ability"]
-    },
-    "armor": {
-        "templates": ["base", "base_item"]
-    }
+    "types": ["jutsu", "equipment", "weapon", "armor"]
 }
 }
